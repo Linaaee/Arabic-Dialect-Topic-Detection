@@ -1,0 +1,22 @@
+{% extends 'My_project.html' %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block body %}
+{{super()}}
+<!--<h1 class="tstyle" ><strong>Arabic dialect Topic detection</strong></h1>-->
+	<form method="POST" action="/Try_it">
+	{{ form.csrf_token }}
+	<p class="tstyle" >{{form.text.label}}</br>{{form.text(cols="60",rows="15")}}</p>
+	<p class="tstyle">{{form.submit(class="button")}}</p>
+	</form>
+	{% if answer %}
+		<div class="banswer">
+			<p id="anszer">Results:</p>
+			<p id="anszer">Prediction with : NB</br>{{answer[0]}}</p>
+			<p id="anszer">Prediction with : SVM</br>{{answer[1]}}</p>
+			<p id="anszer">Predction with : Random Forest</br>{{answer[2]}}</h3></p>
+			<p id="anszer">Prediction with : LR</br>{{answer[3]}}</p>
+		</div>
+	{% endif %}
+{% endblock %}

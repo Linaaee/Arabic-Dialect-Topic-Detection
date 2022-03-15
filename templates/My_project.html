@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html>
+<head>
+{% block head %}
+	<title>Arabic dialect Topic detection</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<style> 
+	body{
+		background-image: url({{ url_for('static', filename='br.jpg') }});
+
+	} </style>
+	<!--<link rel="stylesheet" type="text/css" href="static/style.css">-->
+	<link rel="icon" type="image/png" href="static/font.png" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+{% endblock %}
+</head>
+<body >
+{% block body %}
+	<header id="header">
+      <h1>Arabic Dialect Topic Detection</h1>
+      <div class="menu">
+      	<ul>
+        	<li class="menu1" id="acceuil"><a href="/">Home</a></li>
+        	<!--<li class="menu1"><a href="#">Les réalisateurs du mini-projet</a></li> -->
+        </ul> 
+      </div>
+    </header>
+ {% endblock %}
+</body>
+</html>

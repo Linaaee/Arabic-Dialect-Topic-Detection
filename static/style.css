@@ -1,0 +1,96 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+
+	background-size:1400px;
+
+	
+	font-family: 'Roboto', sans-serif;
+}
+#header
+{
+	display: flex;
+	background-color: #ff5b5b;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tstyle
+{
+	text-align: center;
+}
+
+/* #substyle
+{
+	text-align: center;
+} */
+/* #affichage
+{
+	text-align: center;
+	background-color: rgb(155, 8, 8)
+} */
+ul
+{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+.menu1:hover
+{
+	border-bottom: 2px solid white;
+	padding-bottom: 7px;
+	transition: 0.2s;
+}
+.menu1:focus
+{
+	color: red;
+}
+#acceuil
+{
+	margin-right: 20px;
+}
+.button
+{
+	border: 2px solid black;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+}
+#anszer
+{
+	text-align:center;
+	
+}
+#articl
+{
+	margin-top: 150px;
+	line-height: 25px;
+}
+/* #formstyle
+{
+	position: absolute;
+	left: 450px;
+	max-height: 400px;
+	max-width: 480px;
+}  */
+h3
+{
+	font-size: 35px;
+	text-shadow: black 2px 2px;
+}
+.banswer
+{
+	width: fit-content;
+	height: fit-content;
+	background-color:#ff5b5b;
+	margin-left: 510px;
+	line-height: 25px;
+	text-shadow: rgb(0, 0, 0) 2px 2px;
+}

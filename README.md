@@ -1,5 +1,5 @@
 # Arabic-Dialect-Topic-Detection
-This web app's main goal is to extract the theme from an inserted text in Arabic using machine learning classifiers
+
 <br> <br>
 ![_⌨_Arabic_Dialect_Topic_Detection](https://user-images.githubusercontent.com/74463765/158425246-8832acb8-fb14-4d22-8c48-fc6f1a71b45a.png)
 <br>
@@ -8,7 +8,7 @@ This web app's main goal is to extract the theme from an inserted text in Arabic
 ![Lines of code](https://img.shields.io/tokei/lines/github/Linaaee/Arabic-Dialect-Topic-Detection?color=purple)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Linaaee/Arabic-Dialect-Topic-Detection)
 # Description
-
+This web app's main goal is to extract the theme from an inserted text in Arabic using machine learning classifiers
 # Machine Learning classifiers used in this project
 - Random Forest
 - Logistic Regression
